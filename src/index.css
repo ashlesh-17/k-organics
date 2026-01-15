@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .card-shadow {
+    @apply shadow-md rounded-lg;
+  }
+
+  .btn-primary {
+    @apply bg-[#2B5288] text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-[#2B5288] text-[#2B5288] px-8 py-3 rounded-lg font-semibold hover:bg-[#2B5288] hover:text-white transition-colors;
+  }
+}

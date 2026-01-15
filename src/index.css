@@ -29,10 +29,10 @@
   }
 
   .btn-primary {
-    @apply bg-[#2B5288] text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity;
+    @apply bg-[#800020] text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity;
   }
 
   .btn-secondary {
-    @apply border-2 border-[#2B5288] text-[#2B5288] px-8 py-3 rounded-lg font-semibold hover:bg-[#2B5288] hover:text-white transition-colors;
+    @apply border-2 border-[#800020] text-[#800020] px-8 py-3 rounded-lg font-semibold hover:bg-[#800020] hover:text-white transition-colors;
   }
 }

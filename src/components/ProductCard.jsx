@@ -23,11 +23,11 @@ export default function ProductCard({ product }) {
           </div>
         </div>
         <CardContent>
-          <h3 className="font-semibold text-[#2B5288] mb-2 text-lg">
+          <h3 className="font-semibold text-[#800020] mb-2 text-lg">
             {product.name}
           </h3>
           <p className="text-gray-600 text-sm mb-4">{product.description}</p>
-          <div className="text-2xl font-bold text-[#2B5288]">
+          <div className="text-2xl font-bold text-[#800020]">
             {product.price}
           </div>
         </CardContent>
@@ -37,7 +37,7 @@ export default function ProductCard({ product }) {
             startIcon={<ShoppingCart size={18} />}
             fullWidth
             style={{
-              backgroundColor: "#2B5288",
+              backgroundColor: "#800020",
               color: "white",
               textTransform: "none",
               fontWeight: 600,

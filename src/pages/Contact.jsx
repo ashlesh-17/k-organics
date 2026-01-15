@@ -25,7 +25,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-4">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-4">
             Get in Touch
           </h1>
           <p className="text-xl text-gray-700">We'd love to hear from you</p>
@@ -38,17 +38,17 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div>
-              <h2 className="font-serif text-3xl font-bold text-[#2B5288] mb-8">
+              <h2 className="font-serif text-3xl font-bold text-[#800020] mb-8">
                 Contact Information
               </h2>
 
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#F6E9D9] rounded-lg">
-                    <Mail className="w-6 h-6 text-[#2B5288]" />
+                    <Mail className="w-6 h-6 text-[#800020]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#2B5288] mb-2">Email</h3>
+                    <h3 className="font-semibold text-[#800020] mb-2">Email</h3>
                     <p className="text-gray-700">hello@korganics.com</p>
                     <p className="text-gray-700">support@korganics.com</p>
                   </div>
@@ -56,10 +56,10 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#F6E9D9] rounded-lg">
-                    <Phone className="w-6 h-6 text-[#2B5288]" />
+                    <Phone className="w-6 h-6 text-[#800020]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#2B5288] mb-2">Phone</h3>
+                    <h3 className="font-semibold text-[#800020] mb-2">Phone</h3>
                     <p className="text-gray-700">+91 90000 00000</p>
                     <p className="text-gray-600 text-sm mt-1">
                       Mon-Fri, 10 AM - 6 PM IST
@@ -69,15 +69,15 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#F6E9D9] rounded-lg">
-                    <Phone className="w-6 h-6 text-[#2B5288]" />
+                    <Phone className="w-6 h-6 text-[#800020]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#2B5288] mb-2">
+                    <h3 className="font-semibold text-[#800020] mb-2">
                       WhatsApp
                     </h3>
                     <a
                       href="https://wa.me/919000000000"
-                      className="text-[#E65A3A] hover:text-[#2B5288] transition-colors"
+                      className="text-[#E65A3A] hover:text-[#800020] transition-colors"
                     >
                       Chat with us on WhatsApp
                     </a>
@@ -86,10 +86,10 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#F6E9D9] rounded-lg">
-                    <MapPin className="w-6 h-6 text-[#2B5288]" />
+                    <MapPin className="w-6 h-6 text-[#800020]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#2B5288] mb-2">
+                    <h3 className="font-semibold text-[#800020] mb-2">
                       Location
                     </h3>
                     <p className="text-gray-700">India</p>
@@ -100,7 +100,7 @@ export default function Contact() {
 
             {/* Form */}
             <div>
-              <h2 className="font-serif text-3xl font-bold text-[#2B5288] mb-8">
+              <h2 className="font-serif text-3xl font-bold text-[#800020] mb-8">
                 Send us a Message
               </h2>
 
@@ -116,8 +116,8 @@ export default function Contact() {
                   sx={{
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": { borderColor: "#ddd" },
-                      "&:hover fieldset": { borderColor: "#2B5288" },
-                      "&.Mui-focused fieldset": { borderColor: "#2B5288" },
+                      "&:hover fieldset": { borderColor: "#800020" },
+                      "&.Mui-focused fieldset": { borderColor: "#800020" },
                     },
                     "& .MuiOutlinedInput-input": { padding: "12px" },
                   }}
@@ -135,8 +135,8 @@ export default function Contact() {
                   sx={{
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": { borderColor: "#ddd" },
-                      "&:hover fieldset": { borderColor: "#2B5288" },
-                      "&.Mui-focused fieldset": { borderColor: "#2B5288" },
+                      "&:hover fieldset": { borderColor: "#800020" },
+                      "&.Mui-focused fieldset": { borderColor: "#800020" },
                     },
                     "& .MuiOutlinedInput-input": { padding: "12px" },
                   }}
@@ -153,8 +153,8 @@ export default function Contact() {
                   sx={{
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": { borderColor: "#ddd" },
-                      "&:hover fieldset": { borderColor: "#2B5288" },
-                      "&.Mui-focused fieldset": { borderColor: "#2B5288" },
+                      "&:hover fieldset": { borderColor: "#800020" },
+                      "&.Mui-focused fieldset": { borderColor: "#800020" },
                     },
                     "& .MuiOutlinedInput-input": { padding: "12px" },
                   }}
@@ -173,8 +173,8 @@ export default function Contact() {
                   sx={{
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": { borderColor: "#ddd" },
-                      "&:hover fieldset": { borderColor: "#2B5288" },
-                      "&.Mui-focused fieldset": { borderColor: "#2B5288" },
+                      "&:hover fieldset": { borderColor: "#800020" },
+                      "&.Mui-focused fieldset": { borderColor: "#800020" },
                     },
                     "& .MuiOutlinedInput-input": { padding: "12px" },
                   }}
@@ -186,7 +186,7 @@ export default function Contact() {
                   variant="contained"
                   startIcon={<Send size={20} />}
                   style={{
-                    backgroundColor: "#2B5288",
+                    backgroundColor: "#800020",
                     color: "white",
                     padding: "12px",
                     fontSize: "1rem",

@@ -17,7 +17,7 @@ export default function Shop() {
       {/* Hero */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-7xl mx-auto">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-4">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-4">
             Our Products
           </h1>
           <p className="text-xl text-gray-700 max-w-2xl">
@@ -38,9 +38,9 @@ export default function Shop() {
                 onClick={() => setSelectedCategory(cat)}
                 style={{
                   backgroundColor:
-                    selectedCategory === cat ? "#2B5288" : "transparent",
-                  color: selectedCategory === cat ? "white" : "#2B5288",
-                  borderColor: "#2B5288",
+                    selectedCategory === cat ? "#800020" : "transparent",
+                  color: selectedCategory === cat ? "white" : "#800020",
+                  borderColor: "#800020",
                   textTransform: "none",
                   fontWeight: 600,
                 }}

@@ -4,7 +4,7 @@ export default function Shipping() {
       {/* Hero */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-4">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-4">
             Shipping & Returns
           </h1>
           <p className="text-gray-700">
@@ -16,7 +16,7 @@ export default function Shipping() {
       {/* Content */}
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose prose-lg max-w-none">
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Shipping Policy
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -25,7 +25,7 @@ export default function Shipping() {
             takes 5-7 business days.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Shipping Costs
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -34,7 +34,7 @@ export default function Shipping() {
             ₹500.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Returns & Exchanges
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -43,7 +43,7 @@ export default function Shipping() {
             initiate a return.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Refunds
           </h2>
           <p className="text-gray-700 leading-relaxed">

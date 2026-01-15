@@ -61,7 +61,7 @@ export default function Home() {
           <p className="text-[#E65A3A] text-lg font-semibold mb-4 uppercase tracking-wider">
             Welcome to K_organics
           </p>
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-6 leading-tight">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-6 leading-tight">
             Purely Crafted.
             <br />
             Spiritually Inspired.
@@ -76,7 +76,7 @@ export default function Home() {
                 variant="contained"
                 endIcon={<ArrowRight size={20} />}
                 style={{
-                  backgroundColor: "#2B5288",
+                  backgroundColor: "#800020",
                   color: "white",
                   padding: "12px 32px",
                   fontSize: "1rem",
@@ -91,8 +91,8 @@ export default function Home() {
               <Button
                 variant="outlined"
                 style={{
-                  borderColor: "#2B5288",
-                  color: "#2B5288",
+                  borderColor: "#800020",
+                  color: "#800020",
                   padding: "12px 32px",
                   fontSize: "1rem",
                   textTransform: "none",
@@ -113,7 +113,7 @@ export default function Home() {
             <p className="text-[#E65A3A] text-sm font-semibold uppercase tracking-wider">
               Our Collection
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#2B5288] mt-2 mb-4">
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#800020] mt-2 mb-4">
               Featured Products
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -132,8 +132,8 @@ export default function Home() {
                 variant="outlined"
                 endIcon={<ArrowRight size={20} />}
                 style={{
-                  borderColor: "#2B5288",
-                  color: "#2B5288",
+                  borderColor: "#800020",
+                  color: "#800020",
                   padding: "12px 32px",
                   fontSize: "1rem",
                   textTransform: "none",
@@ -154,7 +154,7 @@ export default function Home() {
             <p className="text-[#E65A3A] text-sm font-semibold uppercase tracking-wider">
               Our Promise
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#2B5288] mt-2">
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#800020] mt-2">
               Why K_organics
             </h2>
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="flex justify-center mb-4 text-[#E65A3A]">
                   {item.icon}
                 </div>
-                <h3 className="font-semibold text-[#2B5288] mb-2 text-lg">
+                <h3 className="font-semibold text-[#800020] mb-2 text-lg">
                   {item.title}
                 </h3>
                 <p className="text-gray-700">{item.description}</p>
@@ -177,7 +177,7 @@ export default function Home() {
       {/* Festival Banner */}
       <section
         className="py-16 md:py-24 px-4 text-white"
-        style={{ background: "linear-gradient(to right, #2B5288, #2F6FA3)" }}
+        style={{ background: "linear-gradient(to right, #800020, #2F6FA3)" }}
       >
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-white/80 text-sm font-semibold uppercase tracking-wider">
@@ -216,7 +216,7 @@ export default function Home() {
             <p className="text-[#E65A3A] text-sm font-semibold uppercase tracking-wider">
               Customer Stories
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#2B5288] mt-2">
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#800020] mt-2">
               Loved by Our Community
             </h2>
           </div>
@@ -238,7 +238,7 @@ export default function Home() {
                   "{t.text}"
                 </p>
                 <div>
-                  <p className="font-semibold text-[#2B5288]">{t.name}</p>
+                  <p className="font-semibold text-[#800020]">{t.name}</p>
                   <p className="text-gray-600 text-sm">{t.role}</p>
                 </div>
               </div>
@@ -250,7 +250,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#2B5288] mb-6">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#800020] mb-6">
             Ready to Experience Pure Spirituality?
           </h2>
           <p className="text-lg text-gray-700 mb-8">
@@ -262,7 +262,7 @@ export default function Home() {
                 variant="contained"
                 endIcon={<ArrowRight size={20} />}
                 style={{
-                  backgroundColor: "#2B5288",
+                  backgroundColor: "#800020",
                   color: "white",
                   padding: "12px 32px",
                   fontSize: "1rem",
@@ -277,8 +277,8 @@ export default function Home() {
               <Button
                 variant="outlined"
                 style={{
-                  borderColor: "#2B5288",
-                  color: "#2B5288",
+                  borderColor: "#800020",
+                  color: "#800020",
                   padding: "12px 32px",
                   fontSize: "1rem",
                   textTransform: "none",

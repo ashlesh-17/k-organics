@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import { Menu, X, ShoppingCart } from "lucide-react";
+import mainLogo from "../assets/main-logo.png";
+import logoName from "../assets/logo-name.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,40 +14,44 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div
-              className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white"
-              style={{ backgroundColor: "#2B5288" }}
-            >
-              K
+            <div className="w-16 h-16 rounded-full flex items-center justify-center">
+              <img
+                src={mainLogo}
+                alt="K Organics"
+                className="w-14 h-14 object-contain"
+              />
             </div>
-            <span className="hidden sm:inline font-serif text-xl font-bold text-[#2B5288]">
-              K_organics
-            </span>
+
+            <img
+              src={logoName}
+              alt="K_organics"
+              className="hidden sm:block h-8 object-contain"
+            />
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             <Link
               to="/"
-              className="text-gray-700 hover:text-[#2B5288] transition-colors font-medium"
+              className="text-gray-700 hover:text-[#800020] transition-colors font-medium"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-gray-700 hover:text-[#2B5288] transition-colors font-medium"
+              className="text-gray-700 hover:text-[#800020] transition-colors font-medium"
             >
               About
             </Link>
             <Link
               to="/shop"
-              className="text-gray-700 hover:text-[#2B5288] transition-colors font-medium"
+              className="text-gray-700 hover:text-[#800020] transition-colors font-medium"
             >
               Shop
             </Link>
             <Link
               to="/contact"
-              className="text-gray-700 hover:text-[#2B5288] transition-colors font-medium"
+              className="text-gray-700 hover:text-[#800020] transition-colors font-medium"
             >
               Contact
             </Link>
@@ -54,16 +60,16 @@ export default function Header() {
           {/* Cart & Mobile Menu */}
           <div className="flex items-center gap-4">
             <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors">
-              <ShoppingCart className="w-6 h-6 text-[#2B5288]" />
+              <ShoppingCart className="w-6 h-6 text-[#800020]" />
             </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden p-2 hover:bg-gray-100 rounded-lg"
             >
               {isOpen ? (
-                <X className="w-6 h-6 text-[#2B5288]" />
+                <X className="w-6 h-6 text-[#800020]" />
               ) : (
-                <Menu className="w-6 h-6 text-[#2B5288]" />
+                <Menu className="w-6 h-6 text-[#800020]" />
               )}
             </button>
           </div>

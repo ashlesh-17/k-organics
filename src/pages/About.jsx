@@ -8,7 +8,7 @@ export default function About() {
       {/* Hero */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-6">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-6">
             Our Story
           </h1>
           <p className="text-xl text-gray-700">
@@ -20,7 +20,7 @@ export default function About() {
       {/* Content */}
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mb-6">
             Building K_organics with Intention
           </h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
@@ -30,7 +30,7 @@ export default function About() {
             care and spiritual devotion.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mb-6 mt-12">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mb-6 mt-12">
             Our Process
           </h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
@@ -40,7 +40,7 @@ export default function About() {
             purity.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mb-6 mt-12">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mb-6 mt-12">
             Our Commitment
           </h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
@@ -64,7 +64,7 @@ export default function About() {
                 variant="contained"
                 endIcon={<ArrowRight size={20} />}
                 style={{
-                  backgroundColor: "#2B5288",
+                  backgroundColor: "#800020",
                   color: "white",
                   padding: "12px 32px",
                   fontSize: "1rem",

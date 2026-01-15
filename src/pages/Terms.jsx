@@ -4,7 +4,7 @@ export default function Terms() {
       {/* Hero */}
       <section className="py-16 md:py-24 px-4 bg-[#F6E9D9]">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#2B5288] mb-4">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-[#800020] mb-4">
             Terms & Conditions
           </h1>
           <p className="text-gray-700">
@@ -16,7 +16,7 @@ export default function Terms() {
       {/* Content */}
       <section className="py-16 md:py-24 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose prose-lg max-w-none">
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Use License
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -26,7 +26,7 @@ export default function Terms() {
             of a license, not a transfer of title.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Disclaimer
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -35,7 +35,7 @@ export default function Terms() {
             hereby disclaims and negates all other warranties.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Limitations
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -44,7 +44,7 @@ export default function Terms() {
             K_organics's website.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Accuracy of Materials
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -54,7 +54,7 @@ export default function Terms() {
             current.
           </p>
 
-          <h2 className="font-serif text-3xl font-bold text-[#2B5288] mt-12 mb-6">
+          <h2 className="font-serif text-3xl font-bold text-[#800020] mt-12 mb-6">
             Links
           </h2>
           <p className="text-gray-700 leading-relaxed">

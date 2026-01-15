@@ -16,7 +16,7 @@ export default function Product() {
         <div className="max-w-7xl mx-auto">
           <Link
             to="/shop"
-            className="flex items-center gap-2 text-[#2B5288] hover:text-[#E65A3A] transition-colors"
+            className="flex items-center gap-2 text-[#800020] hover:text-[#E65A3A] transition-colors"
           >
             <ArrowLeft size={20} /> Back to Shop
           </Link>
@@ -41,7 +41,7 @@ export default function Product() {
               <p className="text-[#E65A3A] text-sm font-semibold uppercase mb-4">
                 {product.category}
               </p>
-              <h1 className="font-serif text-4xl font-bold text-[#2B5288] mb-4">
+              <h1 className="font-serif text-4xl font-bold text-[#800020] mb-4">
                 {product.name}
               </h1>
 
@@ -63,7 +63,7 @@ export default function Product() {
               </p>
 
               {/* Price */}
-              <div className="text-4xl font-bold text-[#2B5288] mb-8">
+              <div className="text-4xl font-bold text-[#800020] mb-8">
                 {product.price}
               </div>
 
@@ -72,14 +72,14 @@ export default function Product() {
                 <div className="flex items-center border border-gray-300 rounded-lg">
                   <button
                     onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                    className="px-4 py-2 text-[#2B5288] hover:bg-gray-100"
+                    className="px-4 py-2 text-[#800020] hover:bg-gray-100"
                   >
                     −
                   </button>
                   <span className="px-6 py-2">{quantity}</span>
                   <button
                     onClick={() => setQuantity(quantity + 1)}
-                    className="px-4 py-2 text-[#2B5288] hover:bg-gray-100"
+                    className="px-4 py-2 text-[#800020] hover:bg-gray-100"
                   >
                     +
                   </button>
@@ -88,7 +88,7 @@ export default function Product() {
                   variant="contained"
                   startIcon={<ShoppingCart size={20} />}
                   style={{
-                    backgroundColor: "#2B5288",
+                    backgroundColor: "#800020",
                     color: "white",
                     padding: "12px 32px",
                     fontSize: "1rem",
@@ -123,13 +123,13 @@ export default function Product() {
 
           {/* Ingredients */}
           <div className="mb-16 bg-[#F6E9D9] rounded-lg p-8">
-            <h2 className="font-serif text-2xl font-bold text-[#2B5288] mb-6">
+            <h2 className="font-serif text-2xl font-bold text-[#800020] mb-6">
               Ingredients
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
               {product.ingredients.map((ing, i) => (
                 <div key={i} className="text-center p-4 bg-white rounded-lg">
-                  <p className="font-semibold text-[#2B5288]">{ing}</p>
+                  <p className="font-semibold text-[#800020]">{ing}</p>
                 </div>
               ))}
             </div>
@@ -137,7 +137,7 @@ export default function Product() {
 
           {/* Benefits */}
           <div className="mb-16">
-            <h2 className="font-serif text-2xl font-bold text-[#2B5288] mb-6">
+            <h2 className="font-serif text-2xl font-bold text-[#800020] mb-6">
               Benefits
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -152,7 +152,7 @@ export default function Product() {
 
           {/* Usage */}
           <div className="mb-16 bg-[#F6E9D9] rounded-lg p-8">
-            <h2 className="font-serif text-2xl font-bold text-[#2B5288] mb-4">
+            <h2 className="font-serif text-2xl font-bold text-[#800020] mb-4">
               How to Use
             </h2>
             <p className="text-gray-700 leading-relaxed">{product.usage}</p>
